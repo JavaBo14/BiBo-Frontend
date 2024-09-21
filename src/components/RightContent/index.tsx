@@ -1,6 +1,13 @@
 import { QuestionCircleOutlined } from '@ant-design/icons';
 import '@umijs/max';
 export type SiderTheme = 'light' | 'dark';
+
+/**
+ * 自己加的
+ * @param props
+ * @constructor
+ */
+
 export const SelectLang = () => {
   return (
     <UmiSelectLang
